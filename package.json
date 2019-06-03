@@ -1,0 +1,25 @@
+{
+  "name": "shri-2018-2-task-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "linter": "eslint --fix \"src/**/*.js\""
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-eslint": "^5.0.1",
+    "eslint-config-google": "^0.13.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-react": "^7.13.0",
+    "faker": "^4.1.0",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "chart.js": "^2.7.2",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-node": "^9.1.0"
+  }
+}
